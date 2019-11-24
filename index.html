@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link id="favicon" rel="icon" type="image/x-icon" href="favicon.png" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+
+  <title>Random User</title>
+  <!-- font-awesome -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="container">
+      <nav class="navbar">
+        <ul class="navbar-items">
+          <li class="navbar-item" id="male" title="Male">
+            <i class="fas fa-mars fa-2x"></i>
+          </li>
+          <li class="navbar-item" id="female" title="Female">
+            <i class="fas fa-venus fa-2x"></i>
+          </li>
+          <li class="navbar-item active" id="random" title="Random">
+            <i class="fas fa-random fa-2x"></i>
+          </li>
+        </ul>
+        <span id="lable">GENDER</span>
+      </nav>
+  </header>
+
+  <section id="profile">
+    <div class="card">
+      <div class="card-header">
+        <img alt="Profile Image" srcset="" class="profile-img" id="profile-img" />
+      </div>
+      <div class="card-body">
+        <div class="result">
+          <span class="lead" id="sub">Hi, My name is</span>
+          <h1 id="value">Elijah Weaver</h1>
+        </div>
+        <ul class="userinfo-items">
+          <li class="userinfo-item active" id="name">
+            <i class="fas fa-3x fa-user-circle"></i>
+          </li>
+          <li class="userinfo-item" id="email">
+            <i class="fas fa-3x fa-envelope-open-text"></i>
+          </li>
+          <li class="userinfo-item" id="dob">
+            <i class="fas fa-3x fa-calendar-alt"></i>
+          </li>
+          <li class="userinfo-item" id="map">
+            <i class="fas fa-3x fa-map-marked-alt"></i>
+          </li>
+          <li class="userinfo-item" id="phone">
+            <i class="fas fa-3x fa-phone-alt"></i>
+          </li>
+          <li class="userinfo-item" id="password">
+            <i class="fas fa-3x fa-key"></i>
+          </li>
+        </ul>
+      </div>
+      <div class="card-footer">
+        <span class="info">Press spacebar to chage user</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- fontawesome JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"></script>
+  <!-- JS -->
+  <script src="./main.js"></script>
+</body>
+
+</html>

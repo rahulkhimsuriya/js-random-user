@@ -1,0 +1,171 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  position: relative;
+  /* background-image: linear-gradient(45deg, #d4fc79 0%, #96e6a1 100%); */
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  font-family: 'Nunito', sans-serif;
+}
+
+.container {
+  margin: 0px 2rem;
+}
+
+ul {
+  list-style: none;
+}
+header.main-header {
+  padding: 10px 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar-items li {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 15px;
+}
+
+.navbar-item {
+  height: 45px;
+  width: 45px;
+  color: #fff;
+  padding: 7px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.navbar-item:hover,
+.navbar-item.active {
+  cursor: pointer;
+  background: #fff;
+  color: rgba(85, 149, 27, 1);
+  box-shadow: 0 0 25px 2px rgba(0, 0, 0, 0.15);
+}
+
+.fa-2x {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+#lable {
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  margin-left: 5px;
+  display: block;
+  text-align: center;
+}
+
+section {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CARD */
+.card {
+  top: 50px;
+  position: relative;
+  background-color: #fff;
+  width: 700px;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: 0 0 14px -1px rgba(0, 0, 0, 0.12);
+}
+
+.card:hover {
+  box-shadow: 0 0 21px 2px rgba(0, 0, 0, 0.15);
+}
+
+.card::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 125px;
+  padding: 0;
+  margin: 0;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.card .profile-img {
+  text-align: center;
+  height: 150px;
+  padding: 5px;
+  background: #fff;
+  width: 150px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  margin-top: -80px;
+}
+
+h1 {
+  font-size: 35px;
+  color: #333;
+}
+
+.card .card-body {
+  padding: 0px 20px 30px 20px;
+}
+
+.fa-3x {
+  font-size: 30px;
+}
+
+.result {
+  padding: 10px 20px;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.userinfo-items li {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 40px;
+  color: rgba(0, 0, 0, 0.2);
+  outline-offset: 0;
+}
+
+.lead {
+  font-size: 20px;
+  color: darkgray;
+}
+
+.userinfo-items .active {
+  color: #43e97b;
+  padding: 5px 0;
+  border-top: 1px solid #43e97b;
+  border-bottom: 1px solid #43e97b;
+  transition: all 0.3s linear;
+}
+
+.card .card-footer {
+  vertical-align: bottom;
+  padding: 10px 15px;
+  font-size: 25px;
+  font-family: 'Kaushan Script', cursive;
+}
